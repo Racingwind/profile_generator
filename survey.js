@@ -11,7 +11,7 @@ rl.question('What is your name? ', (name) => {
       rl.question('What is your favorite music genre? ', (music) => {
         console.log(`${name} likes listening to ${music} while ${activity} and sustain the session with ${snack}.`);
         rl.close();
-      });        
+      });
     });
   });
 });
